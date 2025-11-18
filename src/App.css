@@ -1,5 +1,31 @@
+@font-face {
+  font-family: "PeopleFirstTtobaks";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstNeatLoudTTF.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cafe24Gowoonbam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cafe24Decobox";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decobox.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
 .App {
+  font-family: "Cafe24Gowoonbam";
   text-align: center;
+  background-color: #9bb26c;
+  color: #446a37;
+  /* color: #48582d; */
+  padding: 50px 0;
 }
 
 .App-header {
@@ -7,6 +33,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.App-main > p > span {
+  color: #3d6036;
+  font-weight: 800;
+}
+h1,
+h2,
+h3 {
+  color: #3d6036;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "Cafe24Decobox";
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .header-img {
